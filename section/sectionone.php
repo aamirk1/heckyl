@@ -5,7 +5,11 @@
                 <div class="content-left m-5">
                     <p class="text-white fs-1">&quot;FIND&quot;</p>
                     <p class="text-white fs-2 m-4 mr-3">The Power Of Analytics</p>
-                </div>
+                    <div class="soneBtn">
+                    <a href="http://" class="m-5 " target="_blank" type="button" rel="noopener noreferrer">Contact us</a>
+                
+                    </div>
+                    </div>
             </div>
             <div class="col-lg-6">
                 <img src="<?php echo $base_url;?>assets/images/sectionone.png" alt="" srcset="">
