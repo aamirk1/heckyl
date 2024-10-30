@@ -5,6 +5,7 @@ include 'header.php';
 include 'navbar.php';
 include 'carousel.php';
 include 'section/sectionone.php';
+include 'section/sectiontwo.php';
 ?>
 <?php
 
