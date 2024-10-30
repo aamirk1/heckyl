@@ -1,34 +1,80 @@
-.navb ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
 .subMenu {
-    position: absolute;
-    /* top: 462px; */
-    top: 0px;
-    height: 50px;
-    z-index: 1000;
-    width: 100%;
-    /* background: url(../images/trbg1.png) top left repeat-x; */
-    background-color: #CECECE;
+  position: absolute;
+  /* top: 462px; */
+  top: 0px;
+  height: 50px;
+  z-index: 1000;
+  width: 100%;
+  /* background: url(../images/trbg1.png) top left repeat-x; */
+  background-color: #CECECE;
+}
+
+.subMenu .inner {
+  padding: 0;
+  font-weight: 400;
+}
+.inner {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  min-height: 50px;
+  padding: 30px 0;
+  font-weight: 300;
+  padding: 30px 0;
+}
+
+#sTop {
+  margin-right: 27%;
+  font-size: 24px;
+  margin-top: -10px;
+}
+.subNavBtn {
+  display: block;
+  height: 35px;
+  float: left;
+  margin: 0px 0px 0 0;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 15px 1% 0 1%;
+  text-align: center;
+  color: #fff;
+}
+
+.active {
+  /* background: #3B5323; */
+  color: #0279C4 !important;
+}
+
+.subNavBtn {
+  display: block;
+  height: 35px;
+  float: left;
+  margin: 0px 0px 0 0;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 15px 1% 0 1%;
+  text-align: center;
+  color: #fff;
+}
+
+/* section one start */
+
+.soneBtn {
+  display: flex; /* Use flexbox to align items in a row */
+  gap: 40px; /* Optional: adds space between buttons */
+  justify-content: center;
+}
+
+.soneBtn a {
+  padding: 10px 30px; /* Add some padding to the buttons */
+  background-color: #fff; /* Button background color */
+  color: #000; /* Button text color */
+  text-decoration: none; /* Remove underline from links */
+  border-radius: 5px; /* Optional: round the corners */
+  text-align: center; /* Center text inside the buttons */
+  width: auto;
+}
+
+.soneBtn a:hover {
+  background-color: #0056b3; /* Darker background on hover */
 }

@@ -1,36 +1,14 @@
-<nav class="navbar navbar-light sticky-top bg-light justify-content-between subMenu">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <a class="navbar-brand">LOGO</a>
 
-            </div>
-            <div class="col">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navb">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PRODUCTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">TECHNOLOGY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">COMPANY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CLIENTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">NEWSROOM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">BLOG</a>
-                        </li>
-                        
-                </ul>
-                    
-            </div>
-        </div>
-</nav>
+<div class="subMenu smint fxd transparentBackground" style="position: fixed; top: 0px;">
+	<div class="inner">
+		<a href="#" id="sTop" class="subNavBtn active"><img src="<?php echo $base_url;?>assets/images/pha.png" style="height:40px; width:100px;border: 0;" alt=""></a>
+		<a href="#" id="s1" class="subNavBtn">PRODUCTS</a>
+		<a href="#" id="s2" class="subNavBtn">TECHNOLOGY</a>
+		<a href="#" id="s3" class="subNavBtn">COMPANY</a>
+		<a href="#" id="s4" class="subNavBtn">CLIENTS</a>
+		<a href="#" id="s6" class="subNavBtn">NEWSROOM</a>
+		<a href="#" id="s5" class="subNavBtn ">CONTACT US</a>
+		<span style="cursor:pointer" onclick="javascript:window.open('http://blog.heckyl.com');" class="subNavBtn">BLOG</span>
+		<span style="cursor:pointer" id="hiring" class="subNavBtn dummy1">WE'RE HIRING!</span>
+	</div>
+</div>
